@@ -15,6 +15,10 @@ html {
 4. Kiểu dáng (kiểu chữ, hình tròn, ...)
  */
 
+.clear{
+  clear: both;
+}
+
 #main {
 }
 #header {
@@ -146,5 +150,28 @@ html {
   text-align: justify;
   line-height: 1.4;
 }
+
+#content .member-list{
+  margin-top: 48px;
+  /* overflow: hidden; để cha float ôm trọn con */
+}
+
+#content .member-item {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  /* width: 33.33333%; */
+}
+
+#content .member-name{
+  font-size: 15px;
+}
+
+#content .member-img{
+  margin-top: 15px;
+  width: 154px;
+  border-radius: 4px;
+}
+
 #footer {
 }
