@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  height: 46px;
+  background-color: #000;
+
+  position: fixed;
+  width: 100%;
+}
+
+#nav,
+.subnav {
+  list-style-type: none;
+}
+
+#nav {
+  display: inline-block;
+}
+
+#nav > li {
+  display: inline-block;
+}
+
+#nav > li > a {
+  line-height: 46px;
+  padding: 0 21px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+#nav > li:hover > a {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+#nav li:hover .subnav {
+  display: block;
+}
+
+.subnav {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.subnav li {
+}
+
+.subnav li a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  line-height: 46px;
+  padding: 0 21px;
+}
+
+.subnav li:hover a {
+  background-color: #ccc !important;
+}
+
+#search-btn {
+  float: right;
+  height: 46px;
+}
+
+#search-btn .search-icon {
+  line-height: 46px;
+  font-size: 21px;
+  color: #fff;
+  padding: 0 21px;
+}
+
+#search-btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#slide {
+  background: url("../image/la.jpg") no-repeat center;
+  height: 600px;
+  background-size: cover;
+}

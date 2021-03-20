@@ -1,0 +1,19 @@
+1. header
+2. navigation (điều hướng)
+3. breadcrumbs ( A > B > C >...)
+4. sidebar
+5. slide
+6. content
+7. banner (ảnh QC)
+8. footer
+-----------------------------------------------------------------------
+VD: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+
+1. header
+2. slider
+3. content (container)
+   3.1. about
+   3.2. tour
+   3.3. contract
+   3.4. image
+4. footer

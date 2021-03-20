@@ -1,0 +1,40 @@
+LỚP GIẢ
+
+|1|---------------------------
+<ul>
+   <li>a</li>
+   <li>b</li>
+   <li>c</li>
+</ul>
+------------------------------
+:root {
+  --mycolor: blue;
+}
+li {
+  color: var(--mycolor);
+}
+
+______________________________
+
+|2|---------------------------
+<div class="box"></div>
+------------------------------
+.box {
+  width: 50%;
+  height: 120px;
+  background-color: red;
+}
+.box::before {
+  content: "";  (giúp lớp giả tồn tại)
+  display: block;  (mặc định thì lớp giả không có thuộc tính display => chủ động thêm vào)
+  background-color: aliceblue;
+  width: 50px;
+  height: 50px;
+}
+.box::after {
+  content: "";  (giúp lớp giả tồn tại)
+  display: block;  (mặc định thì lớp giả không có thuộc tính display => chủ động thêm vào)
+  background-color: aliceblue;
+  width: 50px;
+  height: 50px;
+}
