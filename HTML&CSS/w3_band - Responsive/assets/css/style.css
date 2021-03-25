@@ -89,6 +89,10 @@ html {
 
 /* Main */
 #main {
+  /* 
+  trick response khi muốn tìm nhanh những thẻ tràn ra ngoài
+  overflow: hidden; 
+  */
 }
 #header {
   position: fixed;
@@ -194,9 +198,12 @@ html {
 
 #content .content-section {
   width: 800px;
+  max-width: 100%;
   padding: 64px 0 112px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 #content .section-heading {
